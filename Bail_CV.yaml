@@ -1,9 +1,8 @@
 cv:
   name: Joseph Bail (Joey)
-  headline: Mechanical & Atmospheric Engineer | Air Quality, Field Instrumentation, Modeling
+  headline: Mechanical & Air Quality Engineer | Manufacturing, Air Quality, Field Science, Modeling
   location: Salt Lake City, UT
   email: joey.bail@utah.edu
-  phone: "+17179915335"
   website: https://josephbail.com/
   social_networks:
     - network: LinkedIn
@@ -57,7 +56,7 @@ cv:
       - company: University of Utah
         position: Graduate Researcher — Hallar Aerosol Research Team (HART)
         start_date: 2023-08
-        end_date: present
+        end_date: 2025-12
         location: Salt Lake City, UT
         highlights:
           - Designed and led construction of a remote mountaintop aerosol research laboratory at Powder Mountain, Utah
@@ -69,7 +68,7 @@ cv:
       - company: University of Utah
         position: Graduate Researcher — Haskins Lab
         start_date: 2023-08
-        end_date: present
+        end_date: 2025-08
         location: Salt Lake City, UT
         highlights:
           - Converted soil conductivity measurements into chloride concentrations for a new GEOS-Chem particulate chloride inventory
@@ -108,15 +107,6 @@ cv:
           - Built a proof-of-concept roof leak detection system using time-domain reflectometry
           - Designed and programmed a moisture monitoring system with a custom MATLAB interface
 
-      - company: Carlisle Construction Materials
-        position: R&D Engineering Intern
-        start_date: 2017-05
-        end_date: 2017-08
-        location: Carlisle, PA
-        highlights:
-          - Designed and tested extrusion devices for polyisocyanurate insulation materials
-          - Prototyped moisture sensing technologies for roofing systems
-
     Teaching Experience:
       - Teaching Assistant, Engineering Dynamics — University of Utah (2021–2023)
       - Engineering Writing Mentor — Penn State University (2018)
@@ -128,6 +118,7 @@ cv:
         location: Powder Mountain, UT
         summary: End-to-end mechanical design and field installation of a remote alpine aerosol inlet and laboratory system.
         highlights:
+          - "Project overview: [https://www.josephbail.com/projects/project-1](https://www.josephbail.com/projects/project-1)"
           - Delivered a 30-ft aerosol inlet system on a four-month timeline
           - Designed inlet manifold, anchoring hardware, and roof penetration support/seal assembly
           - Engineered structural support for >100 mph winds and harsh winter conditions
@@ -136,9 +127,10 @@ cv:
       - name: (M.S. Thesis) Implementing Playa Dust as Sources for Particulate Chloride in GEOS-Chem
         start_date: 2024-01
         end_date: 2025-12
-        location: University of Utah
+        location: University of Utah - Salt Lake City, UT
         summary: Added inland chloride-rich dust emissions and halogen chemistry to GEOS-Chem.
         highlights:
+          - "Project overview: [https://www.josephbail.com/projects/project-2](https://www.josephbail.com/projects/project-2)"
           - Created playa source masks from SSURGO soil data
           - Built playa dust emission inventories using FENGSHA
           - Integrated emissions and chemistry via HEMCO and Fortran
@@ -147,57 +139,103 @@ cv:
       - name: (M.S. Thesis) Analyzing the Softening Behavior of Brain Vessels
         start_date: 2021-08
         end_date: 2023-05
-        location: University of Utah
+        location: University of Utah - Salt Lake City, UT
         summary: Experimental biomechanics study of sub-failure softening in cerebral arteries.
         highlights:
+          - "Project overview: [https://www.josephbail.com/projects/project-3](https://www.josephbail.com/projects/project-3)"
           - Designed custom vessel testing systems and protocols
           - Quantified softening under overstretch and collagen digestion
           - Developed MATLAB/LabVIEW data processing workflows
 
     Publications:
-      - title: Comparative Analysis of the Softening Effects of Collagen Digestion and Overstretch in Middle Cerebral Arteries
+      - title: Comparative Analysis of the Softening Effects of Collagen Digestion and Over-stretch in Middle Cerebral Arteries
         authors:
-          - Joseph Bail
-        journal: M.S. Thesis, University of Utah
+          - Bail, J. D.
+        journal: Proquest, University of Utah
+        summary: "Committee: Dr. Ken Monson; Dr. Brittany Coats; Dr. Jeffrey Weiss"
         date: 2023
-        url: https://www.proquest.com/
 
-      - title: Frequency at the Syntax–Discourse Interface
+      - title: "Frequency at the Syntax–Discourse Interface: A Bidirectional Study on Fronting Options in L1/L2 German and L1/L2 English"
         authors:
           - Hopp, H.
           - Bail, J.
           - Jackson, C. N.
-        journal: Second Language Research
+        journal: Second Language Research 36 (1), 65-96
         date: 2020
-        doi: 10.1177/0267658318802985
+
+      - title: Implementing Playa Dust as Sources for Particulate Chloride in GEOS-Chem
+        authors:
+          - Bail, J. D.
+        journal: Proquest, University of Utah
+        summary: "Committee: Dr. Gannet Hallar; Dr. Jessica Haskins; Dr. Jim Steenburgh"
+        date: 2025
+
+      - title: Strong Springtime Increase of Ice-Nucleating Particle Concentration in the Rocky Mountains
+        authors:
+          - Lacher, L.
+          - Hallar, A. G.
+          - McCubbin, I. B.
+          - Bail, J.
+          - Froyd, K. D.
+          - Jacquot, J.
+          - Shen, X.
+        journal: EGUsphere 2025, 1-30
+        date: 2025
+
+      - title: Long-Term Monitoring of Ice-Nucleating Particles (INPs) Coupled with Cloud Microphysics
+        authors:
+          - Hallar, A. G.
+          - Lacher, L.
+          - Benson, S.
+          - Mace, G. G.
+          - Pettersen, C.
+          - McCubbin, I. B.
+        journal: 106th AMS Annual Meeting
+        date: 2026
 
     Conference Presentations:
       - bullet: "Poster: Implementing Playas as Sources for Particulate Chloride in GEOS-Chem — 11th International GEOS-Chem Meeting (2024)"
       - bullet: "Poster: Climatology of Dust Events for the Salt Lake Valley — Global Change & Sustainability Symposium (2024)"
 
     Research Field Campaigns:
-      - bullet: Utah Summer Ozone Study (2024)
-      - bullet: S2noCliME (2025–present)
+      - bullet: Utah Summer Ozone Study (Summer 2024)
+      - bullet: S2noCliME (Fall 2024 – Fall 2025)
+      - bullet: Snowscape (Aug 2025 – Dec 2025)
 
     Grants & Awards:
       - bullet: "Research Grant — Global Change & Sustainability Center, University of Utah (2023)"
       - bullet: "Research Grant — PIRE Program, Penn State University (2015)"
 
     Skills:
-      - label: Mechanical Engineering
-        details: CAD (SolidWorks, Inventor), GD&T, prototyping, machining, FEA
-      - label: Programming & Analysis
-        details: Python, MATLAB, R, Fortran, LabVIEW
-      - label: Atmospheric Science
-        details: GEOS-Chem, HYSPLIT, aerosol instrumentation, dust emissions
+      - label: Programming Languages
+        details: Python, MATLAB, R, Fortran, Bash, JavaScript, HTML, Arduino (C++), G-Code, C
+      - label: CAD Tools
+        details: SolidWorks, Inventor, Fusion 360
+      - label: Data Analysis & Visualization
+        details: Pandas, NumPy, Xarray, Rasterio, Matplotlib, Cartopy
+      - label: Development Tools
+        details: VS Code, Jupyter Notebook, Anaconda, RStudio, Git/GitHub, Linux
+      - label: Atmospheric Modeling
+        details: GEOS-Chem, STILT, HYSPLIT, FENGSHA
+      - label: Machining
+        details: Woodworking, manual lathe, manual mill, power tools
+      - label: Functional Expertise
+        details: Technical writing, experimental design, scientific communication, cross-functional collaboration, project management, R&D
       - label: Languages
         details: English, German
 
 design:
   theme: engineeringclassic
+  page:
+    show_top_note: false
   templates:
+    footer: "*Bail - Curriculum Vitae (PAGE_NUMBER/TOTAL_PAGES)*"
     experience_entry:
       main_column: "**POSITION**\nCOMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
+    normal_entry:
+      main_column: "**NAME**\nLOCATION\nHIGHLIGHTS"
+    publication_entry:
+      main_column: "**TITLE**\nSUMMARY\nAuthors: AUTHORS\nURL (JOURNAL)"
 
 locale:
   language: english
