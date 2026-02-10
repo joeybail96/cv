@@ -1,361 +1,206 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
 cv:
-  name: John Doe
-  headline:
-  location: San Francisco, CA
-  email: john.doe@email.com
-  photo:
-  phone:
-  website: https://rendercv.com/
+  name: Joseph Bail (Joey)
+  headline: Mechanical & Atmospheric Engineer | Air Quality, Field Instrumentation, Modeling
+  location: Salt Lake City, UT
+  email: joey.bail@utah.edu
+  phone: "+17179915335"
+  website: https://josephbail.com/
   social_networks:
     - network: LinkedIn
-      username: rendercv
+      username: josephbail2018
     - network: GitHub
-      username: rendercv
-  custom_connections:
+      username: joeybail96
+
   sections:
-    Welcome to RenderCV:
-      - RenderCV reads a CV written in a YAML file, and generates a PDF with professional typography.
-      - See the [documentation](https://docs.rendercv.com) for more details.
-    education:
-      - institution: Princeton University
-        area: Computer Science
-        degree: PhD
-        date:
-        start_date: 2018-09
+    About Me:
+      - Hands-on mechanical and atmospheric engineer with experience spanning field instrumentation, air quality research, and industrial-scale engineering projects.
+      - Strong background in designing, building, and deploying real-world systems—from remote alpine research laboratories to automated manufacturing processes.
+      - Motivated by environmental and air-quality challenges, with a practical, implementation-focused approach to engineering and research.
+
+    Education:
+      - institution: University of Utah
+        area: Atmospheric Sciences
+        degree: MS
+        start_date: 2023-08
+        end_date: 2025-12
+        location: Salt Lake City, UT
+        highlights:
+          - "GPA: 4.00/4.00"
+          - "Thesis: Implementing Playa Dust as Sources for Particulate Chloride in GEOS-Chem"
+          - "Hallar Aerosol Research Team (HART) & Haskins Lab"
+
+      - institution: University of Utah
+        area: Mechanical Engineering
+        degree: MS
+        start_date: 2021-08
         end_date: 2023-05
-        location: Princeton, NJ
-        summary:
+        location: Salt Lake City, UT
         highlights:
-          - 'Thesis: Efficient Neural Architecture Search for Resource-Constrained Deployment'
-          - 'Advisor: Prof. Sanjeev Arora'
-          - NSF Graduate Research Fellowship, Siebel Scholar (Class of 2022)
-      - institution: Boğaziçi University
-        area: Computer Engineering
+          - "GPA: 4.00/4.00"
+          - "Thesis: Analyzing the Softening Behavior of Brain Vessels"
+          - "Head Injury and Vessel Biomechanics Lab"
+
+      - institution: Pennsylvania State University
+        area: Mechanical Engineering
         degree: BS
-        date:
-        start_date: 2014-09
-        end_date: 2018-06
-        location: Istanbul, Türkiye
-        summary:
+        start_date: 2014-08
+        end_date: 2018-12
+        location: State College, PA
         highlights:
-          - 'GPA: 3.97/4.00, Valedictorian'
-          - Fulbright Scholarship recipient for graduate studies
-    experience:
-      - company: Nexus AI
-        position: Co-Founder & CTO
-        date:
-        start_date: 2023-06
+          - "GPA: 3.61/4.00"
+          - Environmental & Biological Fluid Mechanics Lab
+          - Second Language Acquisition Laboratory
+          - Formula SAE — Chassis Team
+          - Technical Writing Mentor Program
+
+    Experience:
+      - company: University of Utah
+        position: Graduate Researcher — Hallar Aerosol Research Team (HART)
+        start_date: 2023-08
         end_date: present
-        location: San Francisco, CA
-        summary:
+        location: Salt Lake City, UT
         highlights:
-          - Built foundation model infrastructure serving 2M+ monthly API requests with 99.97% uptime
-          - Raised $18M Series A led by Sequoia Capital, with participation from a16z and Founders Fund
-          - Scaled engineering team from 3 to 28 across ML research, platform, and applied AI divisions
-          - Developed proprietary inference optimization reducing latency by 73% compared to baseline
-      - company: NVIDIA Research
-        position: Research Intern
-        date:
-        start_date: 2022-05
-        end_date: 2022-08
-        location: Santa Clara, CA
-        summary:
-        highlights:
-          - Designed sparse attention mechanism reducing transformer memory footprint by 4.2x
-          - Co-authored paper accepted at NeurIPS 2022 (spotlight presentation, top 5% of submissions)
-      - company: Google DeepMind
-        position: Research Intern
-        date:
-        start_date: 2021-05
-        end_date: 2021-08
-        location: London, UK
-        summary:
-        highlights:
-          - Developed reinforcement learning algorithms for multi-agent coordination
-          - Published research at top-tier venues with significant academic impact
-            - ICML 2022 main conference paper, cited 340+ times within two years
-            - NeurIPS 2022 workshop paper on emergent communication protocols
-            - Invited journal extension in JMLR (2023)
-      - company: Apple ML Research
-        position: Research Intern
-        date:
-        start_date: 2020-05
-        end_date: 2020-08
-        location: Cupertino, CA
-        summary:
-        highlights:
-          - Created on-device neural network compression pipeline deployed across 50M+ devices
-          - Filed 2 patents on efficient model quantization techniques for edge inference
-      - company: Microsoft Research
-        position: Research Intern
-        date:
-        start_date: 2019-05
-        end_date: 2019-08
-        location: Redmond, WA
-        summary:
-        highlights:
-          - Implemented novel self-supervised learning framework for low-resource language modeling
-          - Research integrated into Azure Cognitive Services, reducing training data requirements by 60%
-    projects:
-      - name: '[FlashInfer](https://github.com/)'
-        date:
-        start_date: 2023-01
+          - Designed and led construction of a remote mountaintop aerosol research laboratory at Powder Mountain, Utah
+          - Engineered and installed a 30-ft aerosol inlet system supplying ambient air to multiple instruments
+          - Maintained and monitored aerosol measurements using GRIMM and Quant optical particle counters
+          - Developed climatologies of dust events across the western U.S. using surface, satellite, and field observations
+          - Participated in Utah Summer Ozone Study and S2noCliME field campaigns
+
+      - company: University of Utah
+        position: Graduate Researcher — Haskins Lab
+        start_date: 2023-08
         end_date: present
-        location:
-        summary: Open-source library for high-performance LLM inference kernels
+        location: Salt Lake City, UT
         highlights:
-          - Achieved 2.8x speedup over baseline attention implementations on A100 GPUs
-          - Adopted by 3 major AI labs, 8,500+ GitHub stars, 200+ contributors
-      - name: '[NeuralPrune](https://github.com/)'
-        date: '2021'
-        start_date:
-        end_date:
-        location:
-        summary: Automated neural network pruning toolkit with differentiable masks
+          - Converted soil conductivity measurements into chloride concentrations for a new GEOS-Chem particulate chloride inventory
+          - Implemented playa dust emissions and halogen chemistry pathways in GEOS-Chem
+          - Evaluated ClNO₂ predictions against NACHTT 2011 field campaign observations
+          - Supported development of new modeling capabilities for inland chloride chemistry
+
+      - company: University of Utah
+        position: Graduate Researcher — Brain Injury & Vessel Biomechanics Lab
+        start_date: 2021-08
+        end_date: 2023-12
+        location: Salt Lake City, UT
         highlights:
-          - Reduced model size by 90% with less than 1% accuracy degradation on ImageNet
-          - Featured in PyTorch ecosystem tools, 4,200+ GitHub stars
-    publications:
-      - title: 'Sparse Mixture-of-Experts at Scale: Efficient Routing for Trillion-Parameter Models'
+          - Designed and executed mechanical testing of cerebral arteries from adolescent sheep
+          - Developed MATLAB scripts and interactive applications to process LabVIEW mechanical test data
+          - Co-managed undergraduate capstone project using digital image correlation for vessel deformation
+          - Designed custom fixtures for microscopy-based wall thickness measurements
+
+      - company: Carlisle Construction Materials
+        position: Mechanical Project Engineer
+        start_date: 2019-01
+        end_date: 2021-06
+        location: Carlisle, PA
+        highlights:
+          - Authored and managed capital engineering projects with approved budgets ranging from $66k to $4.7M
+          - Led a $1.4M automation project eliminating a hazardous, labor-intensive rubber mat handling process
+          - Co-managed a $1.2M equipment upgrade to increase throughput and reduce scrap
+          - Supported manufacturing operations across facilities in OH, OR, UT, PA, and the Netherlands
+
+      - company: Carlisle Construction Materials
+        position: Quality Services Intern
+        start_date: 2018-05
+        end_date: 2018-08
+        location: Carlisle, PA
+        highlights:
+          - Built a proof-of-concept roof leak detection system using time-domain reflectometry
+          - Designed and programmed a moisture monitoring system with a custom MATLAB interface
+
+      - company: Carlisle Construction Materials
+        position: R&D Engineering Intern
+        start_date: 2017-05
+        end_date: 2017-08
+        location: Carlisle, PA
+        highlights:
+          - Designed and tested extrusion devices for polyisocyanurate insulation materials
+          - Prototyped moisture sensing technologies for roofing systems
+
+    Teaching Experience:
+      - Teaching Assistant, Engineering Dynamics — University of Utah (2021–2023)
+      - Engineering Writing Mentor — Penn State University (2018)
+
+    Projects:
+      - name: Design & Deployment of a Remote Aerosol Research Facility
+        start_date: 2024-09
+        end_date: 2025-01
+        location: Powder Mountain, UT
+        summary: End-to-end mechanical design and field installation of a remote alpine aerosol inlet and laboratory system.
+        highlights:
+          - Delivered a 30-ft aerosol inlet system on a four-month timeline
+          - Designed inlet manifold, anchoring hardware, and roof penetration support/seal assembly
+          - Engineered structural support for >100 mph winds and harsh winter conditions
+          - Led on-site installation, alignment, sealing, and commissioning
+
+      - name: (M.S. Thesis) Implementing Playa Dust as Sources for Particulate Chloride in GEOS-Chem
+        start_date: 2024-01
+        end_date: 2025-12
+        location: University of Utah
+        summary: Added inland chloride-rich dust emissions and halogen chemistry to GEOS-Chem.
+        highlights:
+          - Created playa source masks from SSURGO soil data
+          - Built playa dust emission inventories using FENGSHA
+          - Integrated emissions and chemistry via HEMCO and Fortran
+          - Evaluated impacts on N₂O₅ and ClNO₂ over CONUS
+
+      - name: (M.S. Thesis) Analyzing the Softening Behavior of Brain Vessels
+        start_date: 2021-08
+        end_date: 2023-05
+        location: University of Utah
+        summary: Experimental biomechanics study of sub-failure softening in cerebral arteries.
+        highlights:
+          - Designed custom vessel testing systems and protocols
+          - Quantified softening under overstretch and collagen digestion
+          - Developed MATLAB/LabVIEW data processing workflows
+
+    Publications:
+      - title: Comparative Analysis of the Softening Effects of Collagen Digestion and Overstretch in Middle Cerebral Arteries
         authors:
-          - '*John Doe*'
-          - Sarah Williams
-          - David Park
-        summary:
-        doi: 10.1234/neurips.2023.1234
-        url:
-        journal: NeurIPS 2023
-        date: 2023-07
-      - title: Neural Architecture Search via Differentiable Pruning
+          - Joseph Bail
+        journal: M.S. Thesis, University of Utah
+        date: 2023
+        url: https://www.proquest.com/
+
+      - title: Frequency at the Syntax–Discourse Interface
         authors:
-          - James Liu
-          - '*John Doe*'
-        summary:
-        doi: 10.1234/neurips.2022.5678
-        url:
-        journal: NeurIPS 2022, Spotlight
-        date: 2022-12
-      - title: Multi-Agent Reinforcement Learning with Emergent Communication
-        authors:
-          - Maria Garcia
-          - '*John Doe*'
-          - Tom Anderson
-        summary:
-        doi: 10.1234/icml.2022.9012
-        url:
-        journal: ICML 2022
-        date: 2022-07
-      - title: On-Device Model Compression via Learned Quantization
-        authors:
-          - '*John Doe*'
-          - Kevin Wu
-        summary:
-        doi: 10.1234/iclr.2021.3456
-        url:
-        journal: ICLR 2021, Best Paper Award
-        date: 2021-05
-    selected_honors:
-      - bullet: MIT Technology Review 35 Under 35 Innovators (2024)
-      - bullet: Forbes 30 Under 30 in Enterprise Technology (2024)
-      - bullet: ACM Doctoral Dissertation Award Honorable Mention (2023)
-      - bullet: Google PhD Fellowship in Machine Learning (2020 – 2023)
-      - bullet: Fulbright Scholarship for Graduate Studies (2018)
-    skills:
+          - Hopp, H.
+          - Bail, J.
+          - Jackson, C. N.
+        journal: Second Language Research
+        date: 2020
+        doi: 10.1177/0267658318802985
+
+    Conference Presentations:
+      - bullet: "Poster: Implementing Playas as Sources for Particulate Chloride in GEOS-Chem — 11th International GEOS-Chem Meeting (2024)"
+      - bullet: "Poster: Climatology of Dust Events for the Salt Lake Valley — Global Change & Sustainability Symposium (2024)"
+
+    Research Field Campaigns:
+      - bullet: Utah Summer Ozone Study (2024)
+      - bullet: S2noCliME (2025–present)
+
+    Grants & Awards:
+      - bullet: "Research Grant — Global Change & Sustainability Center, University of Utah (2023)"
+      - bullet: "Research Grant — PIRE Program, Penn State University (2015)"
+
+    Skills:
+      - label: Mechanical Engineering
+        details: CAD (SolidWorks, Inventor), GD&T, prototyping, machining, FEA
+      - label: Programming & Analysis
+        details: Python, MATLAB, R, Fortran, LabVIEW
+      - label: Atmospheric Science
+        details: GEOS-Chem, HYSPLIT, aerosol instrumentation, dust emissions
       - label: Languages
-        details: Python, C++, CUDA, Rust, Julia
-      - label: ML Frameworks
-        details: PyTorch, JAX, TensorFlow, Triton, ONNX
-      - label: Infrastructure
-        details: Kubernetes, Ray, distributed training, AWS, GCP
-      - label: Research Areas
-        details: Neural architecture search, model compression, efficient inference, multi-agent RL
-    patents:
-      - number: Adaptive Quantization for Neural Network Inference on Edge Devices (US Patent 11,234,567)
-      - number: Dynamic Sparsity Patterns for Efficient Transformer Attention (US Patent 11,345,678)
-      - number: Hardware-Aware Neural Architecture Search Method (US Patent 11,456,789)
-    invited_talks:
-      - reversed_number: Scaling Laws for Efficient Inference — Stanford HAI Symposium (2024)
-      - reversed_number: Building AI Infrastructure for the Next Decade — TechCrunch Disrupt (2024)
-      - reversed_number: 'From Research to Production: Lessons in ML Systems — NeurIPS Workshop (2023)'
-      - reversed_number: "Efficient Deep Learning: A Practitioner's Perspective — Google Tech Talk (2022)"
-    any_section_title:
-      - You can use any section title you want.
-      - 'You can choose any entry type for the section: `TextEntry`, `ExperienceEntry`, `EducationEntry`, `PublicationEntry`, `BulletEntry`, `NumberedEntry`, or `ReversedNumberedEntry`.'
-      - Markdown syntax is supported everywhere.
-      - The `design` field in YAML gives you control over almost any aspect of your CV design.
-      - See the [documentation](https://docs.rendercv.com) for more details.
+        details: English, German
+
 design:
   theme: engineeringclassic
-  # page:
-  #   size: us-letter
-  #   top_margin: 0.7in
-  #   bottom_margin: 0.7in
-  #   left_margin: 0.7in
-  #   right_margin: 0.7in
-  #   show_footer: true
-  #   show_top_note: true
-  # colors:
-  #   body: rgb(0, 0, 0)
-  #   name: rgb(0, 79, 144)
-  #   headline: rgb(0, 79, 144)
-  #   connections: rgb(0, 79, 144)
-  #   section_titles: rgb(0, 79, 144)
-  #   links: rgb(0, 79, 144)
-  #   footer: rgb(128, 128, 128)
-  #   top_note: rgb(128, 128, 128)
-  # typography:
-  #   line_spacing: 0.6em
-  #   alignment: justified
-  #   date_and_location_column_alignment: right
-  #   font_family:
-  #     body: Raleway
-  #     name: Raleway
-  #     headline: Raleway
-  #     connections: Raleway
-  #     section_titles: Raleway
-  #   font_size:
-  #     body: 10pt
-  #     name: 30pt
-  #     headline: 10pt
-  #     connections: 10pt
-  #     section_titles: 1.4em
-  #   small_caps:
-  #     name: false
-  #     headline: false
-  #     connections: false
-  #     section_titles: false
-  #   bold:
-  #     name: false
-  #     headline: false
-  #     connections: false
-  #     section_titles: false
-  # links:
-  #   underline: false
-  #   show_external_link_icon: false
-  # header:
-  #   alignment: left
-  #   photo_width: 3.5cm
-  #   photo_position: left
-  #   photo_space_left: 0.4cm
-  #   photo_space_right: 0.4cm
-  #   space_below_name: 0.7cm
-  #   space_below_headline: 0.7cm
-  #   space_below_connections: 0.7cm
-  #   connections:
-  #     phone_number_format: national
-  #     hyperlink: true
-  #     show_icons: true
-  #     display_urls_instead_of_usernames: false
-  #     separator: ''
-  #     space_between_connections: 0.5cm
-  # section_titles:
-  #   type: with_full_line
-  #   line_thickness: 0.5pt
-  #   space_above: 0.5cm
-  #   space_below: 0.3cm
-  # sections:
-  #   allow_page_break: true
-  #   space_between_regular_entries: 1.2em
-  #   space_between_text_based_entries: 0.3em
-  #   show_time_spans_in: []
-  # entries:
-  #   date_and_location_width: 4.15cm
-  #   side_space: 0.2cm
-  #   space_between_columns: 0.1cm
-  #   allow_page_break: false
-  #   short_second_row: false
-  #   summary:
-  #     space_above: 0.12cm
-  #     space_left: 0cm
-  #   highlights:
-  #     bullet: •
-  #     nested_bullet: •
-  #     space_left: 0cm
-  #     space_above: 0.12cm
-  #     space_between_items: 0.12cm
-  #     space_between_bullet_and_text: 0.5em
-  # templates:
-  #   footer: '*NAME -- PAGE_NUMBER/TOTAL_PAGES*'
-  #   top_note: '*LAST_UPDATED CURRENT_DATE*'
-  #   single_date: MONTH_ABBREVIATION YEAR
-  #   date_range: START_DATE – END_DATE
-  #   time_span: HOW_MANY_YEARS YEARS HOW_MANY_MONTHS MONTHS
-  #   one_line_entry:
-  #     main_column: '**LABEL:** DETAILS'
-  #   education_entry:
-  #     main_column: |-
-  #       **INSTITUTION**, DEGREE in AREA -- LOCATION
-  #       SUMMARY
-  #       HIGHLIGHTS
-  #     degree_column:
-  #     date_and_location_column: DATE
-  #   normal_entry:
-  #     main_column: |-
-  #       **NAME** -- **LOCATION**
-  #       SUMMARY
-  #       HIGHLIGHTS
-  #     date_and_location_column: DATE
-  #   experience_entry:
-  #     main_column: |-
-  #       **POSITION**, COMPANY -- LOCATION
-  #       SUMMARY
-  #       HIGHLIGHTS
-  #     date_and_location_column: DATE
-  #   publication_entry:
-  #     main_column: |-
-  #       **TITLE**
-  #       SUMMARY
-  #       AUTHORS
-  #       URL (JOURNAL)
-  #     date_and_location_column: DATE
+  templates:
+    experience_entry:
+      main_column: "**POSITION**\nCOMPANY -- LOCATION\nSUMMARY\nHIGHLIGHTS"
+
 locale:
   language: english
-  # last_updated: Last updated in
-  # month: month
-  # months: months
-  # year: year
-  # years: years
-  # present: present
-  # month_abbreviations:
-  #   - Jan
-  #   - Feb
-  #   - Mar
-  #   - Apr
-  #   - May
-  #   - June
-  #   - July
-  #   - Aug
-  #   - Sept
-  #   - Oct
-  #   - Nov
-  #   - Dec
-  # month_names:
-  #   - January
-  #   - February
-  #   - March
-  #   - April
-  #   - May
-  #   - June
-  #   - July
-  #   - August
-  #   - September
-  #   - October
-  #   - November
-  #   - December
+
 settings:
   current_date: '2025-12-22'
-  render_command:
-    design:
-    locale:
-    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ
-    pdf_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.pdf
-    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
-    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
-    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
-    dont_generate_markdown: false
-    dont_generate_html: false
-    dont_generate_typst: false
-    dont_generate_pdf: false
-    dont_generate_png: false
-  bold_keywords: []
