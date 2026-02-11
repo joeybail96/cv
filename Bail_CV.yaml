@@ -149,8 +149,8 @@ cv:
 
     Publications:
       - title: Comparative Analysis of the Softening Effects of Collagen Digestion and Over-stretch in Middle Cerebral Arteries
-        authors:
-          - Bail, J. D.
+        author:
+          - Bail, J.
         journal: Proquest, University of Utah
         summary: "Committee: Dr. Ken Monson; Dr. Brittany Coats; Dr. Jeffrey Weiss"
         date: 2023
@@ -164,8 +164,8 @@ cv:
         date: 2020
 
       - title: Implementing Playa Dust as Sources for Particulate Chloride in GEOS-Chem
-        authors:
-          - Bail, J. D.
+        author:
+          - Bail, J.
         journal: Proquest, University of Utah
         summary: "Committee: Dr. Gannet Hallar; Dr. Jessica Haskins; Dr. Jim Steenburgh"
         date: 2025
@@ -190,6 +190,8 @@ cv:
           - Mace, G. G.
           - Pettersen, C.
           - McCubbin, I. B.
+          - Bail, J.
+          - Hiranuma, N.
         journal: 106th AMS Annual Meeting
         date: 2026
 
